@@ -1,0 +1,411 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Qué devuelve el siguiente código?",
+      "code": "console.log(typeof null);",
+      "answers": ["object", "null", "undefined", "boolean"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "¿Cuál es el resultado de `2 + '2'` en JavaScript?",
+      "code": "console.log(2 + '2');",
+      "answers": ["4", "22", "NaN", "undefined"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "¿Cómo se declara una función en JavaScript?",
+      "code": "",
+      "answers": [
+        "def miFuncion():",
+        "fun miFuncion {}",
+        "function = miFuncion()",
+        "function miFuncion() {}"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 4,
+      "question": "¿Qué operador se utiliza para comparar igualdad estricta?",
+      "code": "",
+      "answers": ["!=", "==", "===", "="],
+      "correctAnswer": 2
+    },
+    {
+      "id": 5,
+      "question": "¿Qué método se usa para añadir elementos al final de un array?",
+      "code": "let arr = [1, 2, 3];\n// Añadir 4",
+      "answers": ["arr.add(4)", "arr.insert(4)", "arr.append(4)", "arr.push(4)"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 6,
+      "question": "¿Qué método convierte un objeto JSON en una cadena?",
+      "code": "",
+      "answers": [
+        "JSON.parse(obj)",
+        "JSON.stringify(obj)",
+        "obj.toString()",
+        "JSON.convert(obj)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "question": "¿Qué palabra clave se utiliza para definir una constante?",
+      "code": "",
+      "answers": ["constant", "var", "const", "let"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 8,
+      "question": "¿Cuál es el valor de `x` después de este código?",
+      "code": "let x = 5;\nx += 3;",
+      "answers": ["5", "3", "undefined", "8"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 9,
+      "question": "¿Qué método devuelve un nuevo array con los elementos que pasan un filtro?",
+      "code": "let arr = [1, 2, 3, 4];\n// Filtrar números mayores a 2",
+      "answers": ["arr.map(n => n > 2)", "arr.find(n => n > 2)", "arr.forEach(n => n > 2)", "arr.filter(n => n > 2)"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 10,
+      "question": "¿Cómo se accede al tercer elemento de un array?",
+      "code": "let arr = [10, 20, 30, 40];",
+      "answers": ["arr[1]", "arr[3]", "arr(2)", "arr[2]"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 11,
+      "question": "¿Cuál es el resultado de `Boolean(0)`?",
+      "code": "console.log(Boolean(0));",
+      "answers": ["true", "false", "undefined", "null"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "question": "¿Qué es una 'promesa' en JavaScript?",
+      "code": "",
+      "answers": [
+        "Un tipo de dato nuevo.",
+        "Una estructura condicional.",
+        "Una función que siempre retorna true.",
+        "Un objeto para manejar operaciones asíncronas."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 13,
+      "question": "¿Qué método se usa para combinar dos arrays?",
+      "code": "let arr1 = [1, 2];\nlet arr2 = [3, 4];",
+      "answers": ["arr1.push(arr2)", "arr1.concat(arr2)", "arr1.append(arr2)", "arr1.merge(arr2)"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 14,
+      "question": "¿Qué se imprime en la consola?",
+      "code": "let a;\nconsole.log(a);",
+      "answers": ["null", "undefined", "0", "Error"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "question": "¿Cuál es el valor de `x` después de este código?",
+      "code": "let x = 10;\nx = x % 3;",
+      "answers": ["0", "3", "1", "10"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 16,
+      "question": "¿Qué palabra clave detiene un bucle?",
+      "code": "",
+      "answers": ["stop", "end", "exit", "break"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 17,
+      "question": "¿Qué hace el método `Array.prototype.map()`?",
+      "code": "",
+      "answers": [
+        "Devuelve el primer elemento del array.",
+        "Itera sobre el array sin modificarlo.",
+        "Crea una copia del array.",
+        "Crea un nuevo array aplicando una función a cada elemento."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 18,
+      "question": "¿Qué palabra clave se usa para manejar errores en JavaScript?",
+      "code": "",
+      "answers": ["catch", "throw", "try", "Todas las anteriores"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 19,
+      "question": "¿Qué método convierte una cadena en un número?",
+      "code": "",
+      "answers": ["parseInt('123')", "Number('123')", "parseFloat('123.45')", "Todas las anteriores"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 20,
+      "question": "¿Cómo se crea un objeto en JavaScript?",
+      "code": "",
+      "answers": [
+        "let obj = {};",
+        "let obj = Object();",
+        "let obj = new Object();",
+        "Todas las anteriores"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 21,
+      "question": "¿Cuál es el resultado de `typeof NaN`?",
+      "code": "console.log(typeof NaN);",
+      "answers": [
+        "'NaN'",
+        "'undefined'",
+        "'object'",
+        "'number'"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 22,
+      "question": "¿Qué devuelve `Array.isArray([1, 2, 3])`?",
+      "code": "console.log(Array.isArray([1, 2, 3]));",
+      "answers": [
+        "false",
+        "true",
+        "undefined",
+        "null"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 23,
+      "question": "¿Cuál es el propósito de `use strict` en JavaScript?",
+      "code": "'use strict';\nfunction prueba() {\n  x = 10; // Error en modo estricto\n}",
+      "answers": [
+        "Hace que el código sea más rápido.",
+        "Desactiva errores.",
+        "Activa un modo de ejecución más estricto.",
+        "Habilita ES6."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 24,
+      "question": "¿Qué devuelve `Math.floor(4.7)`?",
+      "code": "console.log(Math.floor(4.7));",
+      "answers": [
+        "4.7",
+        "4",
+        "NaN",
+        "5"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 25,
+      "question": "¿Cómo se copian propiedades de un objeto a otro?",
+      "code": "let obj1 = { a: 1 };\nlet obj2 = Object.assign({}, obj1);",
+      "answers": [
+        "Object.copy(obj1)",
+        "obj1.copyTo(obj2)",
+        "Object.clone(obj1)",
+        "Object.assign({}, obj1)"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 26,
+      "question": "¿Qué método elimina el último elemento de un array?",
+      "code": "let arr = [1, 2, 3];\narr.pop();",
+      "answers": [
+        "arr.delete()",
+        "arr.splice()",
+        "arr.removeLast()",
+        "arr.pop()"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 27,
+      "question": "¿Qué imprime el siguiente código?",
+      "code": "let a = [1, 2];\nlet b = [...a, 3];\nconsole.log(b);",
+      "answers": [
+        "[[1, 2], 3]",
+        "[3]",
+        "[1, 2]",
+        "[1, 2, 3]"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 28,
+      "question": "¿Qué operador se usa para el operador ternario?",
+      "code": "let resultado = a > b ? 'Mayor' : 'Menor';",
+      "answers": [
+        "??",
+        "?",
+        ":",
+        "&&"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 29,
+      "question": "¿Qué devuelve `Promise.resolve('Hola')`?",
+      "code": "Promise.resolve('Hola').then(console.log);",
+      "answers": [
+        "Un error.",
+        "Una promesa rechazada.",
+        "undefined.",
+        "Una promesa resuelta con 'Hola'."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 30,
+      "question": "¿Cómo se define una función flecha?",
+      "code": "const suma = (a, b) => a + b;",
+      "answers": [
+        "const suma(a, b) => { return a + b };",
+        "function => suma(a, b);",
+        "let suma = a + b => {};",
+        "const suma = (a, b) => a + b;"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 31,
+      "question": "¿Cuál es el resultado de `1 == '1'`?",
+      "code": "console.log(1 == '1');",
+      "answers": [
+        "false",
+        "undefined",
+        "null",
+        "true"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 32,
+      "question": "¿Qué método se utiliza para verificar si una cadena incluye otra?",
+      "code": "let str = 'JavaScript';\nconsole.log(str.includes('Script'));",
+      "answers": [
+        "str.contains('Script')",
+        "str.includes('Script')",
+        "str.find('Script')",
+        "str.has('Script')"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 33,
+      "question": "¿Qué hace `setTimeout()`?",
+      "code": "setTimeout(() => console.log('Hola'), 1000);",
+      "answers": [
+        "Repite una función periódicamente.",
+        "Detiene la ejecución.",
+        "Ejecuta inmediatamente.",
+        "Ejecuta una función después de un retraso."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 34,
+      "question": "¿Cómo verificas si una variable no está definida?",
+      "code": "if (typeof x === 'undefined') {\n  console.log('x no está definida');\n}",
+      "answers": [
+        "x == null",
+        "typeof x === 'undefined'",
+        "x === undefined",
+        "x === null"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 35,
+      "question": "¿Qué valor tiene `null` en JavaScript?",
+      "code": "console.log(null);",
+      "answers": [
+        "undefined",
+        "0",
+        "false",
+        "Un valor especial que indica 'nada'."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 36,
+      "question": "¿Qué devuelve el siguiente código?",
+      "code": "let x;\nconsole.log(x ?? 'Sin valor');",
+      "answers": [
+        "undefined",
+        "null",
+        "'x'",
+        "'Sin valor'"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 37,
+      "question": "¿Cuál es el resultado de `console.log('5' - 2)`?",
+      "code": "console.log('5' - 2);",
+      "answers": [
+        "'52'",
+        "3",
+        "NaN",
+        "undefined"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 38,
+      "question": "¿Qué método convierte un array en una cadena?",
+      "code": "let arr = [1, 2, 3];\nconsole.log(arr.join('-'));",
+      "answers": [
+        "arr.stringify()",
+        "arr.join()",
+        "arr.concat()",
+        "arr.toString()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 39,
+      "question": "¿Qué hace el siguiente código?",
+      "code": "console.log([...'ABC']);",
+      "answers": [
+        "'ABC'",
+        "Error",
+        "undefined",
+        "['A', 'B', 'C']"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 40,
+      "question": "¿Qué devuelve `typeof undefined`?",
+      "code": "console.log(typeof undefined);",
+      "answers": [
+        "'object'",
+        "'undefined'",
+        "'null'",
+        "'boolean'"
+      ],
+      "correctAnswer": 1
+    }
+
+  ]
+  
+}
